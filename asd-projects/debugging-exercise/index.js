@@ -178,6 +178,7 @@ scaleY = 1;
 $(ghost.id).css("transform", `scaleX(${scaleX}) scaleY(${scaleY})`);
 }
 
+
 function startProgram() {
 var $countdown = $("<div>").attr("id", "countdown-timer").css({
 position: "absolute",
@@ -193,6 +194,7 @@ color: "red",
 width: "100%",
 });
 
+// Make sure #board is position: relative so absolute childern are positioned inside it
 $board.css("position", "relative");
 $countdown.appendTo($board);
 
