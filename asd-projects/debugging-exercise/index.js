@@ -211,7 +211,7 @@ clearInterval(countdownInterval);
 }
 }, 1000);
 
-setTimeout(startInterval, initialDelay);
+setTimeout(startInterval, init     ialDelay);
 
 function startInterval() {
 setInterval(update, 1000 / FPS);
